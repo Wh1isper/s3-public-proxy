@@ -1,0 +1,22 @@
+{
+  "name": "s3-public-proxy",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker to proxy S3 bucket with read-only credentials for CDN",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "keywords": [
+    "cloudflare",
+    "worker",
+    "s3",
+    "proxy",
+    "cdn"
+  ],
+  "license": "MIT"
+}
